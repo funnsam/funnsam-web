@@ -1,0 +1,87 @@
+.btnl {
+  border: 2px solid black;
+  background-color: #202020;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-color: #4CAF50;
+  color: green;
+  text-decoration: none;
+  text-align: center;
+  margin-left: auto;
+  display: block;
+}
+.btnl:hover {
+  border: 2px solid limegreen;
+  background-color: limegreen;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-color: #4CAF50;
+  color: white;
+}
+.btnr {
+  border: 2px solid black;
+  background-color: #202020;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-color: #4CAF50;
+  color: green;
+  text-decoration: none;
+  text-align: center;
+  margin-right: auto;
+  display: block;
+}
+.btnr:hover {
+  border: 2px solid limegreen;
+  background-color: limegreen;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-color: #4CAF50;
+  color: white;
+}
+@font-face {
+    font-family: ThinFont;
+    src: url("../NewRes/NotoSansHK-Thin.otf") format("opentype");
+}
+body{
+    background-Color: #202020;
+    font-family: ThinFont;
+}
+p{
+    color: antiquewhite;
+    text-align: center;
+}
+a{
+    color: antiquewhite;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+iframe{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div{
+    visibility: hidden
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: wheat
+}
+
+td {
+  background-color: #dddddd;
+  color: black;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
