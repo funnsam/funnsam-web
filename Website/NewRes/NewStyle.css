@@ -1,0 +1,91 @@
+        body{
+            font-family: Arial;
+            background-image: url(Background.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+            margin: 0;
+            font-size: 18;
+        }
+        h3{
+            color: aqua;
+            font-size: 25;
+            text-align: center;
+        }
+        h4{
+            color: blue;
+            font-size: 20;
+            text-align: center;
+        }
+        p{
+            color: white;
+            font-size: 17;
+            text-align: center;
+            font-style: normal
+        }
+        a{
+            cursor: pointer;
+            animation-name: fadeouta;
+            animation-duration: 1s;
+            color: aquamarine;
+            font-size: 18;
+            text-align: center;
+            font-style: normal;
+        }
+        a:hover{
+            cursor: pointer;
+            color: whitesmoke;
+            font-size: 18;
+            text-align: center;
+            font-style: normal;
+        }
+        div{
+            visibility: visible;
+        }
+        .hide{
+            color: #2fe300;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            text-align: center;
+            padding: 5px;
+          }
+          
+          .topnav a {
+            float: inline-end;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+          .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+          }
+          .topnav a:hover{
+            color: #202020;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            background-color: #f2f2f2;
+          }
+          .topnav button {
+            float: inline-end;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+        .topnav button:hover{
+            color: #202020;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            background-color: #f2f2f2;
+          }
