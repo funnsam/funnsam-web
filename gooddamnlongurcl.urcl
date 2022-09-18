@@ -1,0 +1,10 @@
+BITS 32
+mov r1 .text
+add r2 r1 2003
+.loop
+lod r3 r1
+out %text r3
+inc r1 r1
+bne .loop r1 r2
+.text
+dw ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et massa dui. Praesent vitae felis a purus faucibus sagittis quis sit amet mi. Aenean maximus, magna eget dictum molestie, leo sem congue lectus, ac ultrices turpis est ut ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent massa massa, pharetra nec aliquet id, cursus ut ante. Aliquam eget ultricies tortor. Suspendisse potenti. Praesent non erat convallis, suscipit orci ut, suscipit velit. Curabitur suscipit purus sem, non cursus arcu lacinia posuere. Proin vel lectus commodo, vestibulum tellus pulvinar, eleifend lacus. Curabitur varius nulla ac eleifend molestie. Ut ut dui sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed interdum ligula ipsum, vel efficitur nulla dapibus in. Donec ligula enim, consequat et nunc in, maximus accumsan nunc. Nulla a volutpat diam. Suspendisse sit amet nisi condimentum, viverra risus sit amet, porttitor dolor. Donec vitae aliquet nunc. Vestibulum quis egestas leo. Nunc magna nunc, dignissim sit amet mi eu, iaculis tempor urna. In mattis aliquet porta. In a sapien eu mauris scelerisque consequat eu a metus. Ut vehicula tortor sit amet erat pulvinar, non rhoncus purus sagittis. Quisque eu pretium nunc. Pellentesque venenatis sit amet mauris sed hendrerit. Suspendisse euismod nibh enim, lacinia porttitor nisl efficitur nec. Maecenas fringilla molestie lacus nec egestas. Proin suscipit nisi orci, at porttitor nunc mollis ut. Praesent et ligula risus. Vivamus ac nibh eu nisi bibendum ultrices. Quisque vel nunc in diam luctus laoreet eget sed ante. Nam malesuada ac mi et congue. Integer eu tincidunt nibh. Quisque vel neque a dolor faucibus laoreet et vitae eros. Praesent tincidunt augue nec lectus maximus, tristique pretium est ultricies. In vel mauris non arcu porta sodales non eu augue. Nam sed iaculis lectus, non sagittis nisl. Integer consectetur, eros sed euismod imperdiet, justo augue pulvinar massa, sed imperdiet leo metus sit metus." 0]
